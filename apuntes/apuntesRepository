@@ -1,4 +1,20 @@
 ##LISTA DE COMANDOS##
 
+git reset --soft HEAD-1      para eliminar el ultimo commit * -   -
+
+git remote   *Para ver los remotes
+
+git remote -v   *Para ver la url del repo remoto
+
+code .     *Para ver el còdigo
+
+=============================================================================
+
 $ git status    *Para obtener información de nuestro repositorio
+
+git add .       *Para empezar el seguimiento de un nuevo archivo
+
+git commit -m "first commit"   *Commit directo
+
+git push origin master    *Push del branch master
 
