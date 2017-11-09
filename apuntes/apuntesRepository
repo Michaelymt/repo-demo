@@ -22,11 +22,22 @@ git push origin master    *Push del branch master
 
 $ git pull origin master    *Actualizar el repositorio
 
+git merge         *Fusionar ramas
+
 =========en lugar de add y commit -m: git commit -am "Tercer commit"
 
 git branch    *Para ver las rama (s)
 git branch rama-nueva   *Crear una rama
 git checkout rama-nueva   *Cambiar a la rama
+
+$ git checkout -b arregla-rama   *Cambiar a rama y usarla
+
+
+
+========================================================
+git log --graph --decorate
+git log --graph --decorate --oneline --all
+
 
 
 
