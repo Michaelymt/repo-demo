@@ -22,7 +22,7 @@ git push origin master    *Push del branch master
 
 $ git pull origin master    *Actualizar el repositorio
 
-git merge         *Fusionar ramas
+$ git merge arregla-rama         *Fusionar ramas (desde la rama master)
 
 =========en lugar de add y commit -m: git commit -am "Tercer commit"
 
