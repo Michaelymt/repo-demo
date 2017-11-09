@@ -8,13 +8,24 @@ git remote -v   *Para ver la url del repo remoto
 
 code .     *Para ver el còdigo
 
+
+
 =============================================================================
 
 $ git status    *Para obtener información de nuestro repositorio
 
-git add .       *Para empezar el seguimiento de un nuevo archivo
+git add .       *Para empezar el seguimiento de un nuevo archivo...cargar todos los archivos
 
 git commit -m "first commit"   *Commit directo
 
 git push origin master    *Push del branch master
+
+$ git pull origin master    *Actualizar el repositorio
+
+=========en lugar de add y commit -m: git -am "Tercer commit"
+
+
+
+
+git log    *Para ver el historial de ttodo lo que ha apsado
 
