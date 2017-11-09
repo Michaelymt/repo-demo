@@ -24,6 +24,12 @@ $ git pull origin master    *Actualizar el repositorio
 
 $ git merge arregla-rama         *Fusionar ramas (desde la rama master)
 
+git branch -d arregla-rama    *Borrar una rama
+
+git branch -D arregla-rama    *Borrar una rama (obligado)
+
+git gc    *Borrar todo, incluso el recolector e basura
+
 =========en lugar de add y commit -m: git commit -am "Tercer commit"
 
 git branch    *Para ver las rama (s)
@@ -43,4 +49,6 @@ git log --graph --decorate --oneline --all
 
 
 git log    *Para ver el historial de ttodo lo que ha apsado
+
+git commit --amend   *Para editar algo q ya se commiteo
 
