@@ -22,7 +22,11 @@ git push origin master    *Push del branch master
 
 $ git pull origin master    *Actualizar el repositorio
 
-=========en lugar de add y commit -m: git -am "Tercer commit"
+=========en lugar de add y commit -m: git commit -am "Tercer commit"
+
+git branch    *Para ver las rama (s)
+git branch rama-nueva   *Crear una rama
+git checkout rama-nueva   *Cambiar a la rama
 
 
 
